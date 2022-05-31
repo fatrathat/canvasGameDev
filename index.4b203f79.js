@@ -1,2 +1,0 @@
-!function(){var a={canvas:document.querySelector("#myCanvas")},t=a.canvas.getContext("2d"),e=a.canvas.width/2,c=a.canvas.height-30,n=2,h=-2,i=(a.canvas.width-75)/2;setInterval((function(){t.clearRect(0,0,a.canvas.width,a.canvas.height),t.beginPath(),t.arc(e,c,10,0,2*Math.PI),t.fillStyle="#0095DD",t.fill(),t.closePath(),t.beginPath(),t.rect(i,a.canvas.height-10,75,10),t.fillStyle="#0095DD",t.fill(),t.closePath(),(e+n>a.canvas.width-10||e+n<10)&&(n=-n),(c+h>a.canvas.height-10||c+h<10)&&(h=-h),e+=n,c+=h}),10)}();
-//# sourceMappingURL=index.4b203f79.js.map
